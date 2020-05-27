@@ -1,0 +1,187 @@
+@media screen and (max-width: 575px) and (min-width: 500px){ 
+    .material-card.mc-active .mc-description{
+        height: 250px !important;
+        font-size: 23px;
+    }
+    .mc-footer a{
+        margin-left: 14% !important;
+    }
+    .tutor-1,
+    .tutor-2{
+        margin: 50px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .material-card.mc-active .mc-description{
+        font-size: 12px !important;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .tutor-1,
+   .tutor-2{
+        margin-left: 14%;
+        margin-bottom: 150px;!important;
+    }
+      .material-card.mc-active .mc-footer a{
+        margin: 0px 1%!important;
+    }
+    .material-card.mc-active .mc-footer{
+        top: calc(115% - -87px)!important;
+    }
+    .material-card h2{
+        width: 165%!important;
+        top: calc(177% - 16px)
+    }
+    .material-card .mc-btn-action{
+        right: -92px!important;
+    }
+    .material-card .img-container{
+        width: 102%!important;
+        height: 100%!important;
+    }
+    .material-card.mc-active .img-container{
+        width: 60px!important;
+        height: 60px!important;
+    }
+    .material-card.mc-active .mc-footer{
+        width: 151%!important;
+    }
+    .material-card .mc-content{
+        bottom: -122px!Important;
+        width: 151%!Important;
+    }
+    .material-card .mc-description{
+        bottom: 20px!Important;
+    }
+    .material-card.mc-active .mc-description{
+        font-size: 13px!important;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 992px){
+   .tutor-1,
+   .tutor-2{
+        margin-left: 14%;
+        margin-bottom: 150px;!important;
+    }
+    .material-card.mc-active .mc-footer a{
+        margin: 0px 5%!important;
+    }
+    .material-card.mc-active .mc-footer{
+        top: calc(115% - -87px)!important;
+    }
+    .material-card h2{
+        width: 149%!important;
+        top: calc(159% - 16px)
+    }
+    .material-card .mc-btn-action{
+        right: -97px!important;
+    }
+    .material-card .img-container{
+        width: 100%!important;
+        height: 100%!important;
+    }
+    .material-card.mc-active .img-container{
+        width: 60px!important;
+        height: 60px!important;
+    }
+    .material-card.mc-active .mc-footer{
+        width: 142%!important;
+    }
+    .material-card .mc-content{
+        bottom: -122px!Important;
+        width: 141%!Important;
+    }
+    .material-card .mc-description{
+        bottom: 20px!Important;
+    }
+    .material-card.mc-active .mc-description{
+        font-size: 17px!important;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+    .tutor-1,
+    .tutor-2{
+        margin-left: 15%;
+        margin-bottom: 100px;!important;
+    }
+    .material-card.mc-active .mc-footer a{
+        margin: 0px 4%!important;
+    }
+    .material-card.mc-active .mc-footer{
+        top: calc(100% - -87px)!important;
+    }
+    .material-card h2{
+        width: 137%!important;
+        top: calc(147% - 16px)
+    }
+    .material-card .mc-btn-action{
+        right: -75px!important;
+    }
+    .material-card .img-container{
+        width: 100%!important;
+        height: 100%!important;
+    }
+    .material-card.mc-active .img-container{
+        width: 60px!important;
+        height: 60px!important;
+    }
+    .material-card.mc-active .mc-footer{
+        width: 129%!important;
+    }
+    .material-card .mc-content{
+        bottom: -100px!Important;
+        width: 129%!Important;
+    }
+    .material-card .mc-description{
+        bottom: 20px!Important;
+    }
+    .material-card.mc-active .mc-description{
+        font-size: 15px!important;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 426px){
+   .material-card.mc-active .mc-description{
+        font-size: 17px!important;
+        padding: 30px!Important;
+    } 
+    .tutor-1,
+    .tutor-2{
+        margin: 10px 20px;
+    }
+    .material-card .mc-footer a{
+        padding: 0px!important;
+        margin: 0px 7.5%!important;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 376px){
+    .material-card.mc-active .mc-description{
+        font-size: 17px!important;
+        padding: 30px!Important;
+    }
+    .tutor-1,
+    .tutor-2{
+        margin: 10px 20px;
+    }
+    .material-card .mc-footer a{
+        padding: 0px!important;
+        margin: 0px 6%!important;
+    }
+}
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    .material-card.mc-active .mc-description{
+        padding:  30px !important; 
+        font-size: 17px!important;
+    } 
+    .material-card .mc-footer a{
+        margin-left: 10%!important;
+    }
+}
+@media screen and (max-width: 359px) and (min-width: 320px){
+   .material-card .mc-footer a{
+        margin-left: 9%!important;
+    } 
+    .material-card .mc-footer {
+        padding-left: 15px!important;
+    }
+}
+

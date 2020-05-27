@@ -1,0 +1,1085 @@
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    /*=====================================
+      index page section 2
+    =====================================*/
+    .part{
+        width: 19em;
+    }
+    .center h3{
+        margin-top: 0em;
+    }
+    .skew-text p{
+        margin: auto 50px auto 20px;
+    }
+    /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 38%;
+    }
+    .our-course{
+        margin: auto 1%
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 40%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 36.5%;
+    }
+    /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 43.5%;
+    }
+    /*=====================================
+        index page contact us section
+    =====================================*/
+    #circle{
+        left: 11%;
+    }
+    .form-button{
+        right: 7%;
+        bottom: 23%;
+    }
+     /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a {
+        font-size: 14px;
+    }
+    /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 38%;
+    }
+    .circle-whyus-story{
+        margin-left: 39.5%;
+    }
+    .whyus-pic{
+        margin-top: 20%;
+    }
+    /*=====================================
+               tutor page
+    =====================================*/
+    .tutor-box img{
+        width: 156px;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 992px){
+    /*=====================================
+      index page section 2
+    =====================================*/
+    .part{
+        width: 19em;
+    }
+    .center h3{
+        margin-top: 0em;
+    }
+    .skew-text p{
+        margin: auto 50px auto 20px;
+    }
+    /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 38%;
+    }
+    .our-course{
+        margin: auto 1%
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 40%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 36.5%;
+    }
+    /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 43.5%;
+    }
+    /*=====================================
+        index page contact us section
+    =====================================*/
+    #circle{
+        left: 11%;
+    }
+    .form-button{
+        right: 7%;
+        bottom: 23%;
+    }
+    /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a {
+        font-size: 14px;
+    }
+    .yellow-back:before{
+        left: 86.5%;
+    }
+    /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 38%;
+    }
+    .circle-whyus-story{
+        margin-left: 39.5%;
+    }
+    .whyus-pic{
+        margin-top: 20%;
+    }
+     /*=====================================
+               tutor page
+    =====================================*/
+    .tutor-box img{
+        width: 156px;
+    }
+    .tutor-about p{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+     /*=====================================
+      index page section 2
+    =====================================*/
+    .part{
+        width: 15em;
+    }
+    .part img{
+        width: 60px;
+        height: 60px;
+    }
+    .left1 img{
+       left: 3.9em;
+       top: 2.5em;
+    }
+    .left1 h3{
+       left: 2.5em;
+        font-size: 17px;
+    }
+    .center img{
+        margin-top: 1.5em;
+        margin-left: 3.5em;
+    }
+    .center h3{
+        margin-left: 5.5em;
+        font-size: 17px;
+    }
+    .right1 img{
+        margin-top: 2.5em;
+        margin-left: 6em;
+    }
+    .right1 h3{
+        margin-left: 5.5em;
+        margin-top: -4.7em;
+    }
+     /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 34%;
+    }
+    .our-course{
+        margin: auto 9.7%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 36%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 31.5%;
+    }
+    /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 41.5%;
+    }
+     /*=====================================
+        index page contact us section
+    =====================================*/
+    #circle{
+        left: 0%;
+    }
+    .form-button{
+        right: 1%;
+        bottom: 23%;
+    }
+    .circle-big{
+        left: 3.5%;
+    }
+    .form-input{
+        width: 82%;
+    }
+    /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a,
+    .footer-links li{
+        font-size: 14px;
+    }
+    .footer-contact{
+        margin-top: 20px;
+    }
+    .pink-back {
+    left: 83%;
+    -webkit-transform: skew(14deg, 0deg);
+    transform: skew(14deg, 0deg);
+   }
+   .purple-back {
+    left: 88%;
+    -webkit-transform: skew(24deg, 0deg);
+    transform: skew(24deg, 0deg);
+    }
+    .blue-back {
+    left: 87%;
+    -webkit-transform: skew(39deg, 0deg);
+    transform: skew(39deg, 0deg);
+    border-right: 3em solid transparent;
+    }
+    .yellow-back:before{
+        left: 91.9%;
+    }
+    /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 33.5%;
+    }
+    .story-pic{
+        margin-top: 30%;
+    }
+    .circle-whyus-story{
+        margin-left: 35.5%;
+    }
+    .whyus-pic{
+        margin-top: 50%;
+    }
+     /*=====================================
+               tutor page
+    =====================================*/
+    .tutor-box img{
+        width: 260px;
+        margin-top: 50px;
+    }
+    .tutor-mini-name{
+        left: 91px;
+        bottom: 16px;
+    }
+    .tutor-img-mini{
+        width: 75px;
+    }
+    .tutor-about p{
+        font-size: 17px;
+    }
+    .join-group{
+        margin-top: 0px;
+    }
+    .tutor-contact li{
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .tutor-contact{
+        margin-left: 35px;
+    }
+} 
+@media screen and (max-width: 767px) and (min-width: 576px){
+    /*=====================================
+      index page header
+    =====================================*/
+    .index-text h1{
+        font-size: 30px;
+    }
+    /*=====================================
+      index page section 2
+    =====================================*/
+    .squares{
+        display: block;
+    }
+    .mobile-design{
+        display: none;
+    }
+    /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 27.5%;
+    }
+    .our-course{
+        margin: auto 4%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 30.5%;
+    }
+     /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 24.5%;
+    }
+    /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 38%;
+    }
+    /*=====================================
+        index page contact us section
+    =====================================*/
+    .contact-back{
+       background: rgb(255,255,255);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(51%, rgba(255,255,255,1)), color-stop(52%, rgba(242,242,242,1)));
+background: linear-gradient(to top, rgba(255,255,255,1) 51%, rgba(242,242,242,1) 52%);
+    }
+    .stick{
+        left: -58%;
+        height: 300px;
+    }
+    #circle {
+        left: 11.2%;
+        top: -8%;
+    }
+    form{
+        margin-top: 50px;
+    }
+    .form-button {
+    right: 8.7%;
+    bottom: 17%;
+    }
+    /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a,
+    .footer-links li{
+        font-size: 14px;
+    }
+    .footer-contact{
+        margin-top: 20px;
+    }
+    .pink-back,
+    .purple-back,
+    .blue-back,
+    .yellow-back:before{
+        display: none!important;
+        left: 0%;
+   }
+    footer{
+        height: 25.1em;
+        background: rgb(255,199,9);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(51%, rgba(255,199,9,1)), color-stop(52%, rgba(242,242,242,1)));
+background: linear-gradient(0deg, rgba(255,199,9,1) 51%, rgba(242,242,242,1) 52%);
+    }
+    .back-second p{
+        left: 17%;
+    }
+    .back-second img{
+        margin-left: 28%;
+    }
+    /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 28%;
+    }
+    .circle-whyus-story{
+        margin-left: 31%;
+    }
+    /*=====================================
+               tutor page
+    =====================================*/
+    .tutor-box img{
+        width: 27.65em;
+        margin-top: 50px;
+    }
+    .tutor-img-mini{
+        margin-top: 30px;
+    }
+    .hideme p{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 575px) and (min-width: 500px){
+    /*=====================================
+      index page section 2
+    =====================================*/
+    .squares{
+        display: block;
+    }
+    .mobile-design{
+        display: none;
+    }
+    /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 25%;
+    }
+    .our-course{
+        margin: auto 29%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 29%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 21%;
+    }
+    /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 38%;
+    }
+    .blog-card{
+        height: 385px;
+        margin-bottom: 30px;
+    }
+     /*=====================================
+        index page contact us section
+    =====================================*/
+    .contact-back{
+       background: rgb(255,255,255);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(51%, rgba(255,255,255,1)), color-stop(52%, rgba(242,242,242,1)));
+background: linear-gradient(to top, rgba(255,255,255,1) 51%, rgba(242,242,242,1) 52%);
+    }
+    .stick{
+        left: -60%;
+        height: 300px;
+    }
+    #circle {
+        left: 11%;
+        top: -8%;
+    }
+    form{
+        margin-top: 50px;
+    }
+    .form-button {
+    right: 6.8%;
+    bottom: 17%;
+    }
+    /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a,
+    .footer-links li{
+        font-size: 17px;
+        text-align: center;
+    }
+    .footer-contact{
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .pink-back,
+    .purple-back,
+    .blue-back,
+    .yellow-back:before{
+        display: none!important;
+        left: 0%;
+   }
+    footer{
+        height: 40em;
+background: rgb(255,199,9);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(29%, rgba(255,199,9,1)), color-stop(28%, rgba(242,242,242,1)));
+background: linear-gradient(0deg, rgba(255,199,9,1) 29%, rgba(242,242,242,1) 28%);
+    }
+    .back-second p{
+        left: 17%;
+    }
+    .back-second img{
+        margin-left: 28%;
+    }
+    /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 27%;
+    }
+    .circle-whyus-story{
+        margin-left: 28%;
+    }
+     /*=====================================
+               tutor page
+    =====================================*/
+
+    .tutor-box img{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .tutor-name-1,
+    .tutor-name-2,
+    .tutor-name-3,
+    .tutor-name-4{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .tutor-img-mini{
+        margin-top: 30px;
+    }
+    .hideme p{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 499px) and (min-width: 426px){
+    /*=====================================
+      index page section 2
+    =====================================*/
+    .squares{
+        display: block;
+    }
+    .mobile-design{
+        display: none;
+    }
+    /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 25%;
+    }
+    .our-course{
+        margin: auto 29%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 27.5%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 21%;
+    }
+    /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 36.5%;
+    }
+    .blog-card{
+        height: 385px;
+        margin-bottom: 30px;
+    }
+     /*=====================================
+        index page contact us section
+    =====================================*/
+    .contact-back{
+       background: rgb(255,255,255);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(51%, rgba(255,255,255,1)), color-stop(52%, rgba(242,242,242,1)));
+background: linear-gradient(to top, rgba(255,255,255,1) 51%, rgba(242,242,242,1) 52%);
+    }
+    .stick{
+        height: 300px;
+        left: -60%;
+    }
+    #circle {
+        left: 11%;
+        top: -8%;
+    }
+    form{
+        margin-top: 50px;
+    }
+    .form-button {
+    left: 67%;
+    bottom: 16%;
+    }
+    /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a,
+    .footer-links li{
+        font-size: 17px;
+        text-align: center;
+    }
+    .footer-contact{
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .pink-back,
+    .purple-back,
+    .blue-back,
+    .yellow-back:before{
+        display: none!important;
+        left: 0%;
+   }
+    footer{
+        height: 40em;
+background: rgb(255,199,9);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(27.9%, rgba(255,199,9,1)), color-stop(28%, rgba(242,242,242,1)));
+background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 28%);
+    }
+    .back-second p{
+        left: 17%;
+    }
+    .back-second img{
+        margin-left: 28%;
+    }
+    /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 25%;
+    }
+    .circle-whyus-story{
+        margin-left: 28%;
+    }
+     /*=====================================
+               tutor page
+    =====================================*/
+    .tutor-box img{
+        width: 91%;
+        margin-top: 50px;
+    }
+    .tutor-name-1,
+    .tutor-name-2,
+    .tutor-name-3,
+    .tutor-name-4{
+        width: 91%;
+        margin-left: 20px;
+    }
+     .tutor-img-mini{
+        margin-top: 30px;
+    }
+    .hideme p{
+        padding: 0px;
+        font-size: 18px;
+    }
+    .join-group{
+        font-size: 13px;
+        margin-top: -41px;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 376px){
+   /*=====================================
+      index page section 2
+    =====================================*/
+    .squares{
+        display: block;
+    }
+    .mobile-design{
+        display: none;
+    } 
+    /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 20%;
+    }
+    .our-course{
+        margin: auto 25%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 25%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 16%;
+    }
+     /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 33%;
+    }
+    .blog-card{
+        height: 385px;
+        margin-bottom: 30px;
+    }
+     /*=====================================
+        index page contact us section
+    =====================================*/
+    .contact-back{
+       background: rgb(255,255,255);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(51%, rgba(255,255,255,1)), color-stop(52%, rgba(242,242,242,1)));
+background: linear-gradient(to top, rgba(255,255,255,1) 51%, rgba(242,242,242,1) 52%);
+    }
+    .stick{
+        height: 300px;
+        left: -58%;
+    }
+    #circle {
+        left: 10%;
+        top: -8%;
+    }
+    form{
+        margin-top: 50px;
+    }
+    .form-button {
+    left: 67%;
+    bottom: 16%;
+    }
+    /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a,
+    .footer-links li{
+        font-size: 17px;
+        text-align: center;
+    }
+    .footer-contact{
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .pink-back,
+    .purple-back,
+    .blue-back,
+    .yellow-back:before{
+        display: none!important;
+        left: 0%;
+   }
+    footer{
+        height: 40em;
+background: rgb(255,199,9);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(27.9%, rgba(255,199,9,1)), color-stop(28%, rgba(242,242,242,1)));
+background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 28%);
+    }
+    .back-second p{
+        left: 17%;
+    }
+    .back-second img{
+        margin-left: 28%;
+    }
+    /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 21%;
+    }
+     .circle-whyus-story{
+        margin-left: 24%;
+    }
+     /*=====================================
+               tutor page
+    =====================================*/
+    .tutor-box img{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .tutor-name-1,
+    .tutor-name-2,
+    .tutor-name-3,
+    .tutor-name-4{
+        width: 90%;
+        margin-left: 20px;
+    }
+     .tutor-img-mini{
+        margin-top: 30px;
+    }
+    .hideme p{
+        padding: 0px;
+        font-size: 18px;
+    }
+    .tutor-img-mini{
+        width: 90px;
+    }
+    .tutor-mini-name{
+        left: 107px;
+        bottom: 15px;
+    }
+    .tutor-contact li{
+        margin-right: 5px;
+        
+    }
+    .join-group{
+        font-size: 13px;
+        margin-top: -41px;
+    }
+}
+@media screen and (max-width: 375px){
+   /*=====================================
+      index page section 2
+    =====================================*/
+    .squares{
+        display: block;
+    }
+    .mobile-design{
+        display: none;
+    } 
+    /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 16%;
+    }
+    .our-course{
+        margin: auto 22%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 20%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 12%;
+    }
+     /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 31%;
+    }
+    .blog-card{
+        height: 385px;
+        margin-bottom: 30px;
+    }
+      /*=====================================
+        index page contact us section
+    =====================================*/
+    .contact-back{
+       background: rgb(255,255,255);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(51%, rgba(255,255,255,1)), color-stop(52%, rgba(242,242,242,1)));
+background: linear-gradient(to top, rgba(255,255,255,1) 51%, rgba(242,242,242,1) 52%);
+    }
+    .stick{
+        height: 300px;
+        left: -58%;
+    }
+    #circle {
+        width: 300px;
+        height: 300px;
+        left: 1%;
+        top: -8%;
+    }
+    .circle-big{
+        left: 5%;
+        width: 275px;
+        height: 275px;
+    }
+    form{
+        margin-top: 50px;
+    }
+    .form-button {
+    left: 67%;
+    bottom: 16%;
+    }
+    /*=====================================
+                    footer
+    =====================================*/
+    .footer-links li a,
+    .footer-links li{
+        font-size: 17px;
+        text-align: center;
+    }
+    .footer-contact{
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .pink-back,
+    .purple-back,
+    .blue-back,
+    .yellow-back:before{
+        display: none!important;
+        left: 0%;
+   }
+    footer{
+        height: 43em;
+background: rgb(255,199,9);
+background: -webkit-gradient(linear, left bottom, left top, color-stop(32.9%, rgba(255,199,9,1)), color-stop(28%, rgba(242,242,242,1)));
+background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 28%);
+    }
+    .back-second p{
+        left: 17%;
+    }
+    .back-second img{
+        margin-left: 28%;
+    }
+     /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 18%;
+    }
+     .circle-whyus-story{
+        margin-left: 21%;
+    }
+    .tutor-box img{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .tutor-name-1,
+    .tutor-name-2,
+    .tutor-name-3,
+    .tutor-name-4{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .tutor-img-mini{
+        margin-top: 30px;
+    }
+    .hideme p{
+        padding: 0px;
+        font-size: 18px;
+    }
+    .tutor-img-mini{
+        width: 90px;
+    }
+    .tutor-mini-name{
+        left: 107px;
+        bottom: 15px;
+    }
+    .tutor-contact li{
+        margin-right: 5px;
+        
+    }
+    .join-group{
+        font-size: 13px;
+        margin-top: -41px;
+    }
+    .hideme p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 360px) and (min-width: 341px){
+     /*=====================================
+      index page section 2
+    =====================================*/
+    .squares{
+        display: block;
+    }
+    .mobile-design{
+        display: none;
+    } 
+     /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 15%;
+    }
+    .our-course{
+        margin: auto 22%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 20%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 10%;
+    }
+     /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 31%;
+    }
+      /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 16%;
+    }
+     .circle-whyus-story{
+        margin-left: 19%;
+    }
+    .tutor-contact{
+        display: none;
+    }
+}
+@media screen and (max-width: 340px) and (min-width: 320px){
+     /*=====================================
+      index page section 2
+    =====================================*/
+    .squares{
+        display: block;
+    }
+    .mobile-design{
+        display: none;
+    } 
+     /*=====================================
+          index page courses section
+    =====================================*/
+    .circle-course-index{
+        margin-left: 13%;
+    }
+    .our-course{
+        margin: auto 22%;
+        margin-bottom: 40px;
+        
+    }
+    /*=====================================
+          index page tutor section
+    =====================================*/
+    .circle-tutor-index{
+        margin-left: 18%;
+    }
+    /*=====================================
+          index page student section
+    =====================================*/
+    .circle-student-index{
+        margin-left: 6%;
+    }
+    /*=====================================
+          index page blog section
+    =====================================*/
+    .circle-blog-index{
+        margin-left: 31%;
+    }
+      /*=====================================
+                about page
+    =====================================*/
+    .circle-about-story{
+        margin-left: 14%;
+    }
+     .circle-whyus-story{
+        margin-left: 17%;
+    }
+    .tutor-contact{
+        display: none;
+    }
+} 

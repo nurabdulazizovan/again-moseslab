@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Moseslab</title>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/main_queries.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/tutor-queries.css">
+    <link rel="stylesheet" href="resources/css/queriess.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark menu-3 static-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="resources/img/logo.svg" class="logo" alt="">
+            </a>
+            <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse main-nav" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item avatar dropdown cool-link ">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Haqqımızda
+                        </a>
+                        <div class="dropdown-menu  dropdown-secondary length" aria-labelledby="navbarDropdownMenuLink-55">
+                            <a class="dropdown-item cool-link" href="about-us.html">Hekayəmiz</a>
+                            <a class="dropdown-item cool-link" href="tutors.html">Təlimçilər</a>
+                            <a class="dropdown-item cool-link" href="students.html">Məzunlar</a>
+                        </div>
+                    </li>
+                    <li class="nav-item avatar dropdown cool-link">
+                        <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Kurslarımız
+                        </a>
+                        <div class="dropdown-menu dropdown-secondary length" aria-labelledby="navbarDropdownMenuLink-55">
+                            <a class="dropdown-item cool-link" href="graphics-design-course.html">Qrafik Dizayn</a>
+                            <a class="dropdown-item cool-link" href="marketing-sales-course.html">Marketinq və Satış</a>
+                            <a class="dropdown-item cool-link" href="smm-course.html">Sosial Media MArketinq</a>
+                            <a class="dropdown-item cool-link" href="digital-marketing-course.html">Rəqəmsal marketinq</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cool-link-1" href="examination.html">İmtahan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cool-link-1" href="blog.html">Bloq</a>
+                    </li>
+                    <li class="nav-item avatar dropdown usli">
+                        <a class="nav-link  have-question " id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <p style="color: white; font-weight: 200;font-size: 16px">Sualım var<i class="material-icons white100">arrow_drop_down</i></p>
+                        </a>
+                        <div class="dropdown-menu dropdown-secondary length " aria-labelledby="navbarDropdownMenuLink-55">
+                            <a class="dropdown-item cool-link" href="faq.html">FAQ</a>
+                            <a class="dropdown-item cool-link" href="contact.html">Əlaqə</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-12 index-text">
+                    <h1>Sualına Cavab Axtaranlar!</h1>
+                    <p>İstənilən sahə üzrə öyrənməyə yeni başlayan şəxslərin beyinləri suallarla dolu olur. Davamlı olaraq qarşılaşdığımız və bizə tez-tez ünvanlanan sualları sənin üçün cəmlədik və cavabladıq.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 index-pic">
+                    <img src="resources/img/Asset%201.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="horizontal-line-blue"></div>
+    </header>
+    <section class="js--navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-12">
+                    <h2 class="head-index-course">Kurs Barəsində Suallar</h2>
+                    <div class="circle-faq"></div>
+                </div>
+            </div>
+            <ul class="nav-t nav-tabs">
+                <li class="active">
+                    <a href="#tab1">
+                        <div class="question-box-1">
+                            <img src="resources/img/Asset%202.svg" alt="">
+                            <span>Kurs Barəsinə<br>suallar</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#tab2">
+                        <div class="question-box-2">
+                            <img src="resources/img/Asset%205.svg" alt="">
+                            <span>Qrafik Dizayn<br>suallar</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#tab3">
+                        <div class="question-box-3">
+                            <img src="resources/img/Asset%204.svg" alt="">
+                            <span>Rəqəmsal<br> Marketinq suallar</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#tab4">
+                        <div class="question-box-4">
+                            <img src="resources/img/Asset%203.svg" alt="">
+                            <span>SMM<br>suallar</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="tab1" class="tab-content active">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="myText-1 actives">
+                            <div class="box-test answer-box">
+                                <input class="toggle-box" id="toggleId-1" type="checkbox">
+                                <label for="toggleId-1">Crazy Innovations nədir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Crazy Innovations (www.crazyinnovations.az) 4 il bundan əvvəl şirkətlərdə işləməkdən bezərək səmimi və keyfiyyətli iş mühiti arzulayan, mudir-işçi iearxiyasının olmadığı bir məkanda çalışmaq istəyən, fərqli və yaradıcı düşüncəyə sahib bir grup insan tərəfdən yaradılıb. </p>
+                                    <p>Hal hazırda, Branding, Rəqəmsal Marketing, Sosial Media Marketinqi, Strateji Planlama, Satış kimi sahələr üzrə biznes mühitinin inkişafı istiqamətində xidmət göstərir. </p>
+                                    <p>Müştəri portfelində Usaid, UNDP kimi qeyri-hökumət təşkilatları, Baku 2017, Baku 2019, 42nd Chess Olympiad kimi beynəlxalq idman oyunları, biznes sektorundan isə Dad.az, Synergy Holding və.s kimi iri şirkətlərlə əməkdaşlıq mövcuddur. Bundan əlavə 200-dən artıq layihəyə öz tövhəsini vermişdir. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-2" type="checkbox">
+                                <label for="toggleId-2">Moses Lab nədir?</label>
+                                <div class="toggle-box-content">
+                                    <p>Adından da göründüyü kimi Moses Lab nə kursdur, nə akademiya, nə də təhsil və əyləncə mərkəzi. Moses Lab Crazy Innovations (www.crazyinnovations.az) tərəfindən cəmiyyətin inkişafı məqsədilə yaradılmış qeyri-adi LABARATORİYADIR. </p>
+                                    <p>Moses Lab daha çox Real iş bazarında tələb olunan işçilərin yetişdirlmə mərkəzi olaraq Qrafik Dizayn, Rəqəmsal Marketinq, Branding, UX/Uİ dizayn, Sosial Media Marketinqi və.s qəbildən olan iş sahələri üzrə insanları yönləndirən, daha çox isə praktiki iş mühitinə hazırlayan bir mühitdir. </p>
+                                    <p>Təlimlərdə iştirak edən insanlar qısa zaman kəsiyində nəzəri və praktiki tərəfdən lazım olan biliklərə yiyələnərək gələcəkdə iş karyersında uğur əldə etmək üçün şans qazanırlar. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-3" type="checkbox">
+                                <label for="toggleId-3">Təlimlər hansı istiqamətlərdə aparılır? </label>
+                                <div class="toggle-box-content">
+                                    <p>Qrafik dizayn, rəqəmsal marketinq, marketinq və satış istiqaməti üzrə təlimlər aparılır. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-4" type="checkbox">
+                                <label for="toggleId-4">Təlimlər necə olur? </label>
+                                <div class="toggle-box-content">
+                                    <p>Təlimlər çox sərbəst, həmiçinin səmimi mühitdə baş tutacaq. Dərslər əyləncəli musiqi və oyunlarla, özümüzəməxsus tədris proqramları ilə keçiriləcək təlimlər toplusundan ibarətdir. Əsas məqsəd daha çox praktiki dərslərə üstünlük verməkdir.</p>
+                                    <p>Daha detallı isə, necə deyərlər, min dəfə eşitməkdənsə, bir dəfə gəlib yerində görmək daha yaxşıdır. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-5" type="checkbox">
+                                <label for="toggleId-5">Təlimlərin vaxtları? </label>
+                                <div class="toggle-box-content">
+                                    <p>Standart olaraq səhər, günorta və işləyənlər üçün axşam dərslərimiz mövcuddur. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-6" type="checkbox">
+                                <label for="toggleId-6">Diplom? </label>
+                                <div class="toggle-box-content">
+                                    <p>Kursu bitirdikdən sonra Moses Lab təminatı ilə diplom verilir. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-7" type="checkbox">
+                                <label for="toggleId-7">Praktika? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bəli, praktika mövcuddur, amma yalnız təlimi müvəffəqiyyətlə bitirmiş, həqiqətən buna ehtiyacı olan şəxslərə şamil olunacaq. Bütün bunlardan əlavə, uğurlu namizədləri öz partnyor təşkilatlarımıza yönləndiririk</p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-8" type="checkbox">
+                                <label for="toggleId-8">İş imkanı? </label>
+                                <div class="toggle-box-content">
+                                    <p>Ən uğurlu namizədlərə bizimlə işləmək təkilf oluna bilər. Əlavə olaraq təlimləri uğurla yekunlaşdırmış tələbələrimiz nəznimizdə olan KARYERA bankına əlavə olunur və işlədiyimiz partnyor təşkilatlara yönləndirilir.</p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-9" type="checkbox">
+                                <label for="toggleId-9">Workshop, Demoday? </label>
+                                <div class="toggle-box-content">
+                                    <p>Yuxarıda qeyd olunan olunan terminlərin ana dilimizdə uyğun qarşılığı olmadığı üçün ingilis dilində yazmışıq. </p>
+                                    <p><strong>Workshop </strong>– Əvvəlcədən elan edilmiş qaydada seçiləcək insanlarla birgə həmin sahə üzrə praktiki iş saatlarıdır. Normal təlim kimi başlayan və praktiki həllərə, real işə, problemin həllinə yönəlik kollektiv iş prinsipidir.
+                                        Məsələn: Satılası bir məhsulumuz var və bütün təlim bunu necə daha uğurlu, daha ucuz, etmək kimi suallara cavab axtarılması və bu yöndə fərqli oyunlar, fikir mübadiləsi ilə davam edir.</p>
+                                    <p><strong>Demoday </strong>- Əvvəlcədən elan edilmiş qaydada seçiləcək insanlarla birgə müəyyən sahə üzrə sürətli bilgi mübadiləsi formalı təlimdir. Ənənəvi təlimdən fərqli olaraq, sahə ilə bağlı terminologiyanın, metodikanın, korporativ etikanın, həllər və s. bir neçə saat ərzində aşılandığı təlim formasıdır.</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-10" type="checkbox">
+                                <label for="toggleId-10">Real keyslər nədir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Xüsusilə marketing cəmiyyəti tərəfindən çeynənilmiş mövzu olsa da dolayısı ilə real praktika, problemlər üzərində işə dəlalət edir.</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-11" type="checkbox">
+                                <label for="toggleId-11">Avadanlıq?</label>
+                                <div class="toggle-box-content">
+                                    <p>Fərqli təlim otaqlarımız, iş üçün lazım olacaq bütün vasitələrimiz olsa da, hər kəsin öz notebook-u ilə təlimə qoşulmasının ideal olacağını düşünürük. Bu həm parametr fərqləri, data itkisi kimi halların qarşısını alacaq, həm də dərs müddətində yarıda qalan işi evdə asanlıqla davam etdirməyinizə imkan verəcək. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-12" type="checkbox">
+                                <label for="toggleId-12">Yaş limiti varmı? </label>
+                                <div class="toggle-box-content">
+                                    <p>Əli mouse (siçan), dili söz tuta bilən hər kəs qatıla bilər</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-13" type="checkbox">
+                                <label for="toggleId-13">Necə qoşula bilərəm? </label>
+                                <div class="toggle-box-content">
+                                    <p>Çox sadə! Bu yazını oxuyursunuzsa artıq Moses Lab sizdən bir klik məsafəsindədir. Saytımızda “Müraciət Et” düyməsinə klikləyərək bizə qoşula bilərsiniz. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-14" type="checkbox">
+                                <label for="toggleId-14">Müqavilə? </label>
+                                <div class="toggle-box-content">
+                                    <p>Kursa başlayan hər bir şəxslə mütləq şəkildə müqavilə imzalanır, hüquqi məsələlər öz həllini tapdıqdan sonra digər işlərə davam edirik. </p>
+                                    <p>Qeyd: 18 yaşına çatmamış şəxslərdə isə müqavilə valideynlərdən biri ilə imzalanacaqdır. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-15" type="checkbox">
+                                <label for="toggleId-15">Ödəniş? </label>
+                                <div class="toggle-box-content">
+                                    <p>Qiymət strategiyamız tam şəffafdır və seçəcəyiniz təlimə uyğun olaraq dəyişəcək. Əlavə məlumat üçün seçdiyiniz təlimin səhifəsində yaxından tanış ola bilərsiniz.</p>
+                                    <p>Kredit – Nə götürürük, nə də tövsiyyə edirik. </p>
+                                    <p>Tam ödəməliyəm ya aylıq? – Ödənişi istər tam, istərsə də mərhələli şəkildə edə bilərsiniz. qeyd: birdəfəlik ödəniş olunduğu təqdirdə müəyyən güzəştlər olunur. </p>
+                                    <p>Köçürmə yolu ilə ödəniş? – Əlbəttə, təki dərdmiz bu olsun. Korporativ və ya fərdi qaydada tələbələr üçün bank ödənişi də mövcuddur. </p>
+                                    <p>Endirim və ya güzəşt? – Endirim kampaniyaları olduğu zaman sosial şəbəkə profillərimiz və veb saytımızda bu haqda elan olunacaqdır. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-16" type="checkbox">
+                                <label for="toggleId-16">Harada yerləşir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Ünvanımız: Əhməd Rəcəbli küç. 156, Aynalı plaza Yaxın gələcəkdə regionlarda da fəaliyyət göstərməsi planlaşdırırıq. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-17" type="checkbox">
+                                <label for="toggleId-17">Əlaqə? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bura qədər gəlib, oxuyan, anlayan və hələ də əlaqə vasitəsini öyrənmək istəyənlər üçün daha asan olması üçün online çat üzərindən yazmağı şiddətlə tövsiyyə edirik J</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab2" class="tab-content hide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="myText-1 actives">
+                            <div class="box-test answer-box">
+                                <input class="toggle-box" id="toggleId-18" type="checkbox">
+                                <label for="toggleId-18">Qrafik dizayn nədir, nə ilə yeyilir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Qrafik dizayn vizual ünsiyyətin bir vasitəsidir. </p>
+                                    <p>Daha bəsit dildə ifadə etsək ideyaların, fəlsəfənin, məntiqin, dəyərin obrazlar, şəkillər, video və fontlar vasitəsilə hər kəsə aydın şəkildə ifadə olunmasıdır. </p>
+                                    <p>Günümüzdə əsasən də Biznesin inkişafı sahəsində xidmətləri əvəzolunmazdır. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-19" type="checkbox">
+                                <label for="toggleId-19"> Dizayner olmaq asandır? </label>
+                                <div class="toggle-box-content">
+                                    <p>Həm hə, həm də yox. Əsas vacib olan bu peşəyə sevgi, məqsəd və çalışqanlıqdır.
+                                        Bu iş həm texniki proqram biliyinə, həm də yaradıcılıq tərəflərinə bölünərək özündə bir neçə amili birləşdirir. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-20" type="checkbox">
+                                <label for="toggleId-20">Bu işdə nə qədər pul var?</label>
+                                <div class="toggle-box-content">
+                                    <p>Əslində o qədər də çox pul yoxdur. Amma biliklərinizin, uğurlu işlərinizin, karyeranızın sayəsində Azərbaycanda ən yaxşı halda aylıq 2500-3000 AZN qazana bilərsiniz.
+                                        Yeni başlayanlar təqribən 500 AZN+ əməkhaqqı ilə başlayırlar. Xaricdə isə Dizayn daha çox inkişaf etdiyi üçün artıq özü özlüyündə sahələrə bölünür və seçəçəyiniz sahəyə uyğun olaraq ə/h da artır. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-21" type="checkbox">
+                                <label for="toggleId-21">Qohumlara işinizi necə izah edərdiniz? </label>
+                                <div class="toggle-box-content">
+                                    <p>Çox hallarda heç necə. J Dizayner deyən kimi – Həəə, ev düzəldirsən? </p>
+                                    <p>Reklam desək – Həə, market sözü yazılıree, onu deyirsən? </p>
+                                    <p>YPX işçilərinə izah etmək istəsən isə - Qaqa, “XAÇKERSƏN”?</p>
+                                    <p>Ümumilikdə isə bir az müasir sənət olduğu üçün yaşlı nəslin nümayəndələrinə, bu işdə məlumatı olamayan adamlara öz peşəni, işini izah etmək çox qəliz məsələdir.</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-22" type="checkbox">
+                                <label for="toggleId-22">Çak-Çuk var?</label>
+                                <div class="toggle-box-content">
+                                    <p>100% var. Dizaynerlər özləri pul qazanma metoduna görə bir neçə qola ayrılırlar.</p>
+                                    <p>Daimi işdə işləyib sadəcə aylıq əmək haqqı alanlar</p>
+                                    <p>Daimi işdə işləyib aylıq əmək haqqı və işdən sonra əlavə iş götürənlər </p>
+                                    <p>Heç yerdə işləməyib evdə, öz offisində işləyənlər (qeyd: İş təcrübəsi və fərasəti minimum 3 il olanlar adətən)</p>
+                                    <p>Pulu düşünməyib yalnız zövqə uyğun işləyənlər (adətən pul dərdi olmayan şəxslər) </p>
+                                    <p>Komputeri, müştərini, havanı, rütubəti və 1 milyon digər faktı bəhanə gətirənlər və.s</p>
+                                    <p>Özü işləməyib digər dizaynerləri işlədənlər (Alverçi tipi)</p>
+                                    <p>Əlqərəz insanlar müxtəlif olduğu üçün peşəyə uyğun adaptasiyalar da fərqlidir. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-23" type="checkbox">
+                                <label for="toggleId-23">Ən tez nə qədər vaxta öyrənmək olar? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bu da insanların zehin, düşüncə, yaradıcılıq faktorlarına görə dəyişir və burda konkret cavab yoxdur. Amma proqramları alət olaraq ən pis halda 2-3 ay ərzində öyrənmək olur.
+                                        İş proqram öyrənməklə bitmir, çünki daha çox məntiq, savad, dünya görüşü və təxəyyül tələb edir ki, bu da zamanla alınır. </p>
+                                    <p>Qısası, 3 ay proqramlar üçün, ən azı isə 1 il təcrübə. Cəmi: 1 il yarım təqribi. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-24" type="checkbox">
+                                <label for="toggleId-24">Hansı program öyrənmək üçün daha çətindir?</label>
+                                <div class="toggle-box-content">
+                                    <p>Məncə heç biri. Düşünürəm və əminəm ki, proqram, alət öyrənmək sırf tədris metodikasına və öyrənən şəxsin öz istəyinə bərabərdir. İstək nə qədər çox olsa bir o qədər tez öyrənmə şansına bərabərdir</p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-25" type="checkbox">
+                                <label for="toggleId-25">Əl qabiliyyəti önəmlidirmi? </label>
+                                <div class="toggle-box-content">
+                                    <p>Şübhəsiz ki, əl qabiliyyəti, rəssamlıq birmənalı şəkildə üstünlükdür. Amma onsuz da başlamaq, öyrənmək və sonra isə inkişaf etdirmək mümkündür.</p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-26" type="checkbox">
+                                <label for="toggleId-26">Özüm öyrənə bilərəm? </label>
+                                <div class="toggle-box-content">
+                                    <p>Hərçənd ki, bizim işimiz, pulumuz öyrətməkdən qazanılsa da biz özü öyrənmək istəyənləri dəstəkləyirik və alqışlayırıq. Örnəyi, Bakıda hal hazırda üzdə olan dizaynerlərin demək olar ki, böyük əksəriyyəti özü öyrənənlərdir. Mümükündür, hətta daha da artıqlarını etmək olar. Təki istək olsun. Özünüz öyrənəcəyiniz halda öyrənmə zamanı uzanır və nəyi necə başlayıb harda bitirəcəyiniz məsələsinin riski artır ki, tez həvəsdən düşə bilərsiniz. Amma digər tərəfdən də kurslara nisbətdə daha effektivdir çünki sırf praktikaya dayanır. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-27" type="checkbox">
+                                <label for="toggleId-27">Onda kurs nəyə lazımdır? </label>
+                                <div class="toggle-box-content">
+                                    <p>Yuxarıda qeyd edildiyi kimi Kurs sadəcə sizə bu prossesi qavramaq üçün daha asan çıxış yolu təklif edir ki, sullar, keçilməz hədlər yarananda daha asan həll edəsiniz. Ən əsası isə öyrənmə metodikası, stili, trendlər, işin qaranlıq tərəflərini də izah edir ki, sürət baxımından qazanasınız. </p>
+                                </div>
+
+
+                                <input class="toggle-box" id="toggleId-28" type="checkbox">
+                                <label for="toggleId-28">Müştəri ilə işləmək çətindir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Əfsus ki, bu işin ən qəliz və görünməyən tərəfi müştəri ilə işləməkdir. Dizayn sırf vizual, dizaynerin yaratdığı hər şey isə gözlə görünən olduğu üçün bu işi loru dildə desək satmaq, müştərini razı salmaq işin bəlkə də ən çətin tərəfidir. Bu dünyanın istənilən yerində dilindən, dinindən, irqidən asılı olamayaraq bütün dizaynerlərin qarşılaşdığı ən xoşagəlməz hissədir. Bu problemin çıxış yolu kimi ixtisaslaşmış şirkətlərdə müştəri ilə dizaynerin ünsiyyətini minimallaşdıracaq vəzifələr yaradılır və bilavasitə o peşə sahibləri tərəfindən mövqe qurulur ki, dizayner heçnəyin dərdini çəkməsin və qulaqcıqlarını taxıb yaradıcılıqla məşğul olsun. </p>
+                                </div>
+
+
+                                <input class="toggle-box" id="toggleId-29" type="checkbox">
+                                <label for="toggleId-29">Sertifikat nəyə lazımdır? </label>
+                                <div class="toggle-box-content">
+                                    <p>Sözün əsl mənasında qohumlarınızın, dost tanışın yanında lovğalanmaqdan savayı heç bir işə yaramır. Gələcəkdə sertifikatlar CV-nizi doldursa da, bu sizin faydalı iş əmsalınıza təsir etməyəcək. Çünki sizi işə götürən adamın dizayn sahəsində yalnız sizdə axtardıqları sizin yaradıcılığınız, iş bacarıqlarınızdır. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-30" type="checkbox">
+                                <label for="toggleId-30">Əgər mən gec qavrayıramsa? </label>
+                                <div class="toggle-box-content">
+                                    <p>Həqiqətən də elə insanlar var ki, qavranış məsləsində nisbətən gec anlayır və gec qavrayırlar. Amma Moses labda belə insanlar üçün də yer var, çünki bir tədris metodu fərdə yox fərdlərin birlikdə kollektiv işinə fokuslanıb. Kollektiv iş metodunda hətta qavraması zəif olan insanlar belə qeyri ixtiyari bütün prosseslərdə yaxından iştirak edir və özlərini komandanın bir parçası kimi hiss edir, öz tövhəsini qatır. Bu da öz növbəsində maksimum iş prossesinə qatılmağa, anlamağa imkan verir.</p>
+                                </div>
+
+
+                                <input class="toggle-box" id="toggleId-31" type="checkbox">
+                                <label for="toggleId-31">İşə getmədən pul qazanmaq olur? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bəli, dizayner olmağın bəlkə də ən üstün cəhətlərindən biri də odur ki, zaman, məkan anlayışı aktuallığını itirir. Siz öz evinizdə otura-otura Almaniyada diş məcunları satan şirkət üçün poster dizaynı edə bilərsiniz. Əslində isə işə getmədən pul qazanmağın bir çox metodu var. </p>
+                                    <p>Microstock saytlarına iş yükləyərək (shutterstock, getimages və.s) </p>
+                                    <p>Şirkətin işçisi olmadan həmin şirkətlə müqavilə, razılaşma yolu ilə işləmək </p>
+                                    <p>Freelancer.com, 99designs.com və.s kimi saytlarda qeydiyyatdan keçərək fərqli sahələrdən müştərilərlə işləmək </p>
+                                    <p>Qlobal brendlər üçün elan olunmuş qaydada müsabiqədən keçərək freelance işləmək. </p>
+                                </div>
+
+
+                                <input class="toggle-box" id="toggleId-32" type="checkbox">
+                                <label for="toggleId-32">Öyrəndikdən sonra həyatımda nə dəyişəcək? </label>
+                                <div class="toggle-box-content">
+                                    <p>Ən azından düşüncə tərziniz dəyişir. Əvvəl gördüyünüz, fikir vermədiyiniz amilləri daha yaxşı anlayacaqsınız, daha fərqli düşünəcəksiniz. Çünki proqram təminatının tədrisi beyninizi müsbət yöndə daha dəqiq, diqqətli, disiplinli olmağa kökləyir. Ümümilikdə isə biznes prosseslərinin, brend, məhsul, dizayn, çap və.s kimi hissələrin bir biriləri ilə necə vəhdət qurduğunu anlamağa başlayırsınız. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab3" class="tab-content hide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="myText-1 actives">
+                            <div class="box-test answer-box">
+                                <input class="toggle-box" id="toggleId-65" type="checkbox">
+                                <label for="toggleId-65">Tələbəyəm, bu kursun mənə gələcəkdə qatqısı nə olacaq? </label>
+                                <div class="toggle-box-content">
+                                    <p>Əgər sən, tələbə və ya məzunsansa bu kurs məhz sənin üçündür. Rəqəmsəllaşan dünyada şirkətlər üçün faydalı insan resursu olmaq, yeni bilik və bacarıqlar əldə etmək üçün ən optimal altrernativlərdən biri məhz bu kursdur.</p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-66" type="checkbox">
+                                <label for="toggleId-66">IT biliklərinə nə qədər ehtiyacım var? </label>
+                                <div class="toggle-box-content">
+                                    <p>Kursdan öncə heç bir IT biliyinə ehtiyacınız olmayacaq. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-67" type="checkbox">
+                                <label for="toggleId-67">Kursdan sonra iş tapma ehtimalım nə qədərdir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bizim kursu bitirəndən sonra seçilən tələbələr Crazy Innovations şirkətində təcrübəçi olaraq işə dəvət olunacaqlar. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-68" type="checkbox">
+                                <label for="toggleId-68">Bu akkreditə olunmuş bir kursdurmu? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bu akkreditə olunmuş kurs deyil və heç vaxt olmayacaq. Köhnə metodları, tədris planlarını və sistemlərini qorumağa çalışan bürokratik akademik quruluşlara qarşı qəti mövqeyimiz var. </p>
+                                    <p>Məqsədimiz insanları həyatlarında həqiqətən bir dəyişiklik etməyə imkan verəcək düzgün rəqəmsal marketinq bilikləri və bacarıqları ilə təmin etməkdir. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-69" type="checkbox">
+                                <label for="toggleId-69">Demo dərs olacaqmı? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bəli, ödənişsiz olaraq demo dərsimizdə iştirakınız mümkündür. Dərsdən sonra hələ də suallarınız varsa, təlimçi ilə qısa görüş keçirib, kursda iştirakınıza qərar verə bilərsiniz. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-70" type="checkbox">
+                                <label for="toggleId-70">Kursdan sonra rəqəmsəl mövzu ilə bağlı problem yaşadım, sizə müraciət edə bilərəm? </label>
+                                <div class="toggle-box-content">
+                                    <p>Biz tələbələrimizə fərdi yanaşırıq. Kurs bitdi, salam-sağol bitdi yanaşmasını qəti qınayırıq.</p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-71" type="checkbox">
+                                <label for="toggleId-71">Rəqəmsal marketinqin gələcəyi varmı? </label>
+                                <div class="toggle-box-content">
+                                    <p>Rəqəmsal olan hər platformanın gələcək potensialı olduğu danılmazdır. Ona görə də, gələcək rəqəmsalla gələcək!</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-72" type="checkbox">
+                                <label for="toggleId-72">Kursun sonunda sertifikat verilir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Elə çox sertifikata marağınız varsa, bəli kursu müvəffəqiyyətlə başa vurduğu haqda sertifikatla təmin edirik. Əsas sertifikat deyil, öyrəndiklərinizdir.</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-73" type="checkbox">
+                                <label for="toggleId-73">Rəqmsal marketinq nədir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Rəqəmsal marketinq – marketinq fəaliyyətini rəqəmsal texnologiyaların köməyi ilə həyata keçirmə prosesinə deyilir. Rəqəmsal marketinqin əsas məqsədi markanı, məhsul və ya xidməti internet vasitəsi ilə tanıtmaqdır. Bununla yanaşı müxtəlif üsullarla satışların artırılması da əsas məqsədlərdən biridir. Burada potensial müştəriləri cəlb etmək, istehlakçı kimi saxlamaq məqsədilə rəqəmsal texnologiyalardan istifadə edilir. Hansı ki, sosial şəbəkələri, veb saytları, e-mail xidmətlərini, mobil telefonları, rəqəmsal televizorları, bir sözlə internetə çıxışı olan bütün rəqəmsal texnolagiyaları və alətləri buraya daxil etmək olar. Lakin internetə birbaşa qoşulmayan kanallardan da istifadə oluna bilər. Buna isə əsasən mobil telefonların SMS, MMS xidmətləri, zəng melodiyaları aid edilir.</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-74" type="checkbox">
+                                <label for="toggleId-74">Biznesimə nə kimi töhfə verə bilər?</label>
+                                <div class="toggle-box-content">
+                                    <p>Rəqəmsal aləmdə mövcudluq hal-hazırda bütün bizneslər üçün vacibdir. Rəqəmsal strategiyaları düzgün tətbiq edən şirkətlər rəqabət baxımından böyük üstünlüklərə sahib olurlar. Kiçik bizneslər üçün tətbiqi isə həyati önəm daşıyır. Böyük firmalara qarşı rəqabətə dözmək üçün bütün rəqəmsal marketinq alətlərindən istifadəyə ehtiyac var. Sizin də biznesiniz varsa və ya gələcəkdə biznes qurmaqla bağlı xəyalınız varsa bu kurs tam olaraq sizin üçün dizayn olunub.</p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-75" type="checkbox">
+                                <label for="toggleId-75">Rəqəmsal marketinqin ənənəvi marketinqdən fərqi nədir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Rəqəmsal marketinq, ənənəvi marketinqin onlayn platformaları daşınmış formasıdır. Marketinq yanaşması eyni olaraq qalır, lakin alətlər dəyişib. Kursun ilk dərslərindən marketinq fəlsəfəsini detallı şəkildə izah edəcəyik ki, rəqəmsal marketinq strategiyaları quranda çətinlik çəkməyəsiniz.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab4" class="tab-content hide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="myText-1 actives">
+                            <div class="box-test answer-box">
+                                <input class="toggle-box" id="toggleId-87" type="checkbox">
+                                <label for="toggleId-87">Hər sosial şəbəkədə hesabım olmalıdır? </label>
+                                <div class="toggle-box-content">
+                                    <p>Xeyr olmalı deyil. Birçox firma hər sosial platformada yer almağı düşünərək hesablarını açırlar, amma aktiv olarq hər sosial platformda yer almağınız vacib deyil. </p>
+                                    <p>Hədəf kütlənizin daha aktiv olduğu sosial media platformalarını araşdıraraq, bu platformalarda aktiv olmağınız və işlərinizi bu məcralarda davam etdirməyiniz sizə daha yaxşı feedback verəcək. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-88" type="checkbox">
+                                <label for="toggleId-88">Sosial Media hesablarımın adları eyni olmalıdır? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bəli hər hesabda eyni adı istifadə etməyiniz olduqca önəmlidir. Bütün adların eyni olduğu təqdirdə sosial media hesablarınızın reklamlarını rahatlıqla edə bilərsiniz. </p>
+                                    <p>Adlar fərqli olduğu təqdirdə istifadəçilər və potensial müştərilər üçün bu adları yadda saxlamaq olduqca çətinləşəcəkdir. Bu səbəbdən də izlənilməniz çətinləşəcəkdir. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-89" type="checkbox">
+                                <label for="toggleId-89">Sosial mediada hansı aralıqla paylaşım etməliyəm?</label>
+                                <div class="toggle-box-content">
+                                    <p>Bu sizin markanız və məhsullarınızın çeşidlərinə görə dəyişə bilər. İstifadəçilərlə nə qədər əlaqədə olmaq istəyirsiniz, nə qədər sıxlıqla kontent paylaşa bilərsiniz və sektorunuza uyğun kontent bazasına görə təyin etməlisiniz. </p>
+                                    <p>İzləyicilərinizlə bəli zaman aralıqları ilə kontent paylaşa bilər, olara markanızı xatırlada bilərsiniz. Ancaq bu orjinal və müştəri üçün dəyərli olmalıdır, əks təqdirdə izləyicilər bundan sıxıla bilər. </p>
+                                </div>
+                                <input class="toggle-box" id="toggleId-90" type="checkbox">
+                                <label for="toggleId-90">Sosial Media səhifələrimdə reklam verməyim şərtdir? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bu əslində sosial mediadan nə gözlədiyinizə bağlıdır. Sosial medialar sadəcə reklamlardan gəlir əldə etdikləri üçün mütəmadi reklam verməyiniz üçün sizi reklam verməyə yönləndirirlər. Özəlliklə Facebook və Youtube reklamlarına nəzər yetirək. Hər iki platformada paylaşımlar xüsusi alqoritma ilə yayıldığı üçün reach-I artırmaq üçün reklamlar mütləq ola bilər. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-91" type="checkbox">
+                                <label for="toggleId-91">Paylaşım planı hazırlamalıyam? </label>
+                                <div class="toggle-box-content">
+                                    <p>Bəli kontent planı hazırlamağınız olduqca önəmlidir. Uzun müddət sonranı görmək, markanız üçün bir strategiya cızmağınız vacibdir. Bu həm ayın əvvəli planladığınız paylaşım planı ay sonuna kimi nə paylaşım? Sualını düşünməməyinizə və vaxt qazanmağınıza şərait yaradacaqdır. </p>
+                                </div>
+
+                                <input class="toggle-box" id="toggleId-92" type="checkbox">
+                                <label for="toggleId-92">İzləyici sayını necə artıra bilərəm? </label>
+                                <div class="toggle-box-content">
+                                    <p>İzləyici satın almaq illər öncə məşhur olsa da markalara xeyirdən çox zərər verir. İzləyici satın alarkən səhifələrdə izləyici sayının çox görünməsini istəyirlər, ancaq bu izləyicilərin original olaraq artmaması və fake profillər olması paylaşımların reach-inin azalmasına səbəb olur. </p>
+                                    <p>Bunun qarşısını almaq üçün izləyici sayınızı orjinal olaraq artırmalısınız. Bunun üçün də sosial media paylaşımlarınızın yaradıcı və viral olmağına diqqət etməlisiniz. Və reklamların targetingini edərkən potensial müştərilərinizi hədəfləməyinizə diqqət edə bilərsiniz.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact-back">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-12 contactus-left">
+                        <div class="circle-big">
+                            <h4 class="form-h">Sualım<br>var </h4>
+                            <img class="form-img-line" src="resources/img/Rectangle 9.svg">
+                            <h4 class="form-h2">mənə<br> zəng edin,<br>yazın</h4>
+                        </div>
+                        <div id="circle"> </div>
+                        <img src="resources/img/stick.svg" class="stick">
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-12 contactus-right">
+                        <form action="index.html">
+                            <input type="email" placeholder="Email" required class="form-input">
+                            <input type="text" placeholder="Ad, Soyaq" required class="form-input">
+                            <input type="number" placeholder="(000) 000 00 00" required class="form-input">
+                            <textarea name="Təklif və ya iradlarınızı bildirin" id=""></textarea>
+                            <button class="form-button">OK:)</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12 back-first">
+                    <ul class="footer-contact">
+                        <li><a href="#"><img src="resources/icons/facebook-icon.svg" alt=""></a></li>
+                        <li><a href="#"><img src="resources/icons/instagram-icon.svg" alt=""></a></li>
+                        <li><a href="#"><img src="resources/icons/linkedin-icon.svg" alt=""></a></li>
+                        <li><a href="https://api.whatsapp.com/send?|=tr&phone=994553915397"><img src="resources/icons/whatsapp-icon.svg" alt=""></a></li>
+                    </ul>
+                    <div class="row footer-left">
+                        <div class="col-md-3 col-sm-3 col-12">
+                            <ul class="footer-links">
+                                <li>Haqqımızda</li>
+                                <li><a href="#">Təlimçilər</a></li>
+                                <li><a href="#">Məzunlar</a></li>
+                                <li><a href="#">Niyə biz?</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-12">
+                            <ul class="footer-links">
+                                <li>Kurslarımız</li>
+                                <li><a href="#">Rəqəmsal Marketinq</a></li>
+                                <li><a href="#">Qrafik Dizayn</a></li>
+                                <li><a href="#">Marketinq və Satış</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-12">
+                            <ul class="footer-links">
+                                <li>Sualım var</li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-12">
+                            <ul class="footer-links">
+                                <li><a href="#">İmtahan</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li>#LEADUS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pink-back"></div>
+                    <div class="purple-back"></div>
+                    <div class="blue-back"></div>
+                    <div class="yellow-back"></div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12 back-second">
+                    <img src="resources/img/logo.svg" alt="">
+                    <p>Copyright 2019 Moseslab - All Rights Reserved.Privacy Policy | Site Terms & Disclosures. Developed by Nurlana Abdulazizova</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>
