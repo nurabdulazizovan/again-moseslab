@@ -1646,6 +1646,7 @@ footer{
     width: 100%;
 }
 .apply{
+    margin-bottom: 20px;
     color: #fff;
     background-color: #42a2db;
     padding: 5px 10px;
@@ -1705,6 +1706,7 @@ footer{
 }
 .course-skill img{
     width: 50px;
+    height: 60px;
     margin-left: 33%;
     height: 50px;
 }
@@ -1715,6 +1717,7 @@ footer{
 }
 .course-skill-2 img{
     width: 50px;
+    height: 60px;
     margin-left: 25%;
 }
 .course-skill-2 h4{

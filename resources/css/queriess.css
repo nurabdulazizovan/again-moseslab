@@ -1,4 +1,4 @@
-@media screen and (max-width: 1199px) and (min-width: 1024px){
+@media screen and (max-width: 1199px) and (min-width: 992px){
     /*=====================================
       index page section 2
     =====================================*/
@@ -23,7 +23,8 @@
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 40%;
     }
     /*=====================================
@@ -72,86 +73,31 @@
     .tutor-box img{
         width: 156px;
     }
-}
-@media screen and (max-width: 1023px) and (min-width: 992px){
     /*=====================================
-      index page section 2
+               courses pages
     =====================================*/
-    .part{
-        width: 19em;
+    .course-level{
+        width: 274px;
+        margin-left: 20%;
     }
-    .center h3{
-        margin-top: 0em;
+    .course-item-head{
+        text-align: left;
+        font-size: 27px;
     }
-    .skew-text p{
-        margin: auto 50px auto 20px;
+    .course-skill img{
+        margin-left: 29.5%;
     }
-    /*=====================================
-          index page courses section
-    =====================================*/
-    .circle-course-index{
-        margin-left: 38%;
+    .course-skill-2 img{
+        margin-left: 20%;
     }
-    .our-course{
-        margin: auto 1%
-    }
-    /*=====================================
-          index page tutor section
-    =====================================*/
-    .circle-tutor-index{
+    .graphics-course-circle{
         margin-left: 40%;
     }
-    /*=====================================
-          index page student section
-    =====================================*/
-    .circle-student-index{
-        margin-left: 36.5%;
+    .graphics-course-style-circle{
+        margin-left: 35%;
     }
-    /*=====================================
-          index page blog section
-    =====================================*/
-    .circle-blog-index{
-        margin-left: 43.5%;
-    }
-    /*=====================================
-        index page contact us section
-    =====================================*/
-    #circle{
-        left: 11%;
-    }
-    .form-button{
-        right: 7%;
-        bottom: 23%;
-    }
-    /*=====================================
-                    footer
-    =====================================*/
-    .footer-links li a {
-        font-size: 14px;
-    }
-    .yellow-back:before{
-        left: 86.5%;
-    }
-    /*=====================================
-                about page
-    =====================================*/
-    .circle-about-story{
-        margin-left: 38%;
-    }
-    .circle-whyus-story{
-        margin-left: 39.5%;
-    }
-    .whyus-pic{
-        margin-top: 20%;
-    }
-     /*=====================================
-               tutor page
-    =====================================*/
-    .tutor-box img{
-        width: 156px;
-    }
-    .tutor-about p{
-        font-size: 17px;
+    .work-place-circle{
+        margin-left: 20%;
     }
 }
 @media screen and (max-width: 991px) and (min-width: 768px){
@@ -203,7 +149,8 @@
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 36%;
     }
     /*=====================================
@@ -305,6 +252,45 @@
     .tutor-contact{
         margin-left: 35px;
     }
+    /*=====================================
+               courses pages
+    =====================================*/
+    .course-level{
+        width: 193px;
+        margin-left: 10%;
+    }
+    .course-item-head{
+        text-align: left;
+        font-size: 20px;
+    }
+    .course-skill img{
+        margin-left: 19.5%;
+    }
+    .course-skill-2 img{
+        margin-left: 3%;
+    }
+    .course-item-circle{
+        width: 55px;
+        height: 55px;
+    }
+    .graphics-course-circle{
+        margin-left: 36.5%;
+    }
+    .graphics-course-style-circle{
+        margin-left: 29.5%;
+    }
+    .course-time ul li{
+        font-size: 14px;
+    }
+    .work-place-circle{
+        margin-left: 9%;
+    }
+    .check-line-1, 
+    .check-line-2, 
+    .check-line-3, 
+    .check-line-4{
+        font-size: 12px;
+    }
 } 
 @media screen and (max-width: 767px) and (min-width: 576px){
     /*=====================================
@@ -336,7 +322,8 @@
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 30.5%;
     }
      /*=====================================
@@ -425,6 +412,56 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 51%, rgba(242,242,242,1) 52%
     .hideme p{
         padding: 0px;
     }
+    /*=====================================
+               courses pages
+    =====================================*/
+    .course-level{
+        width: 134px;
+        margin-left: 0%;
+    }
+    .course-icon{
+        width: 50px;
+    }
+    .course-icon2{
+        width: 65px;
+    }
+    .course-level span{
+        font-size: 19px;
+    }
+    .course-item-head{
+        text-align: left;
+        font-size: 15px;
+    }
+    .course-skill img{
+        margin-left: 15.5%;
+        width: 35px;
+    }
+    .course-skill h4{
+        font-size: 13px;
+    }
+    .course-skill-2 img{
+        margin-left: 3%;
+        width: 30px;
+    }
+    .course-skill-2 h4{
+        font-size: 12px;
+    }
+    .course-item-circle{
+        width: 45px;
+        height: 45px;
+    }
+    .graphics-course-circle{
+        margin-left: 32.5%;
+    }
+     .graphics-course-style-circle{
+        margin-left: 22%;
+    }
+    .work-place-circle{
+        margin-left: -4%;
+    }
+    .hansi-sahe{
+        font-size: 33px;
+    }
 }
 @media screen and (max-width: 575px) and (min-width: 500px){
     /*=====================================
@@ -450,7 +487,8 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 51%, rgba(242,242,242,1) 52%
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 29%;
     }
     /*=====================================
@@ -553,6 +591,42 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 29%, rgba(242,242,242,1) 28%
     .hideme p{
         padding: 0px;
     }
+    /*=====================================
+               courses pages
+    =====================================*/
+    .course-level{
+        margin-left: 0%;
+    }
+    .course-icon2{
+        margin-left: -3%;
+    }
+    .course-item-pic{
+        width: 100%;
+    }
+    .course-item-circle{
+        margin-left: 3%;
+        width: 55px;
+        height: 55px;
+    }
+    .course-item-head{
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    .graphics-course-circle{
+        margin-left: 31%;
+    }
+     .graphics-course-style-circle{
+        margin-left: 21%;
+    }
+    .course-style-box{
+        margin-left: 0px;
+    }
+    .work-place-circle{
+        margin-left: -3%;
+    }
+    .hansi-sahe{
+        font-size: 29px;
+    }
 }
 @media screen and (max-width: 499px) and (min-width: 426px){
     /*=====================================
@@ -578,7 +652,8 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 29%, rgba(242,242,242,1) 28%
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 27.5%;
     }
     /*=====================================
@@ -685,6 +760,51 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 2
         font-size: 13px;
         margin-top: -41px;
     }
+     /*=====================================
+               courses pages
+    =====================================*/
+    .course-level{
+        margin-left: 0%;
+    }
+    .course-icon2{
+        margin-left: -3%;
+    }
+    .course-item-pic{
+        width: 100%;
+    }
+    .course-item-circle{
+        margin-left: 3%;
+        width: 55px;
+        height: 55px;
+    }
+    .course-item-head{
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    .course-skill h4,
+    .course-skill-2 h4{
+        font-size: 13px;
+    }
+    .course-skill img,
+    .course-skill-2 img{
+        width: 40px;
+    }
+    .graphics-course-circle{
+        margin-left: 29%;
+    }
+    .graphics-course-style-circle{
+        margin-left: 17%;
+    }
+    .course-style-box{
+        margin-left: 0px;
+    }
+      .work-place-circle{
+        display: none;
+    }
+    .hansi-sahe{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
 }
 @media screen and (max-width: 425px) and (min-width: 376px){
    /*=====================================
@@ -710,7 +830,8 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 2
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 25%;
     }
     /*=====================================
@@ -828,6 +949,57 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 2
         font-size: 13px;
         margin-top: -41px;
     }
+     /*=====================================
+               courses pages
+    =====================================*/
+    .course-level{
+        margin-left: 0%;
+    }
+    .course-icon2{
+        margin-left: -3%;
+    }
+    .course-item-pic{
+        width: 100%;
+    }
+    .course-item-circle{
+        margin-left: 3%;
+        width: 50px;
+        height: 50px;
+    }
+    .course-item-head{
+        font-size: 18px;
+        margin-left: 8%;
+    }
+    .course-skill h4,
+    .course-skill-2 h4{
+        font-size: 13px;
+    }
+    .course-skill img,
+    .course-skill-2 img{
+        width: 40px;
+    }
+    .course-skill img{
+        margin-left: 29%;
+    }
+    .course-skill-2 img{
+        margin-left: 17%;
+    }
+    .graphics-course-circle{
+        margin-left: 25%;
+    }
+    .graphics-course-style-circle{
+        margin-left: 13.5%;
+    }
+    .course-style-box{
+        margin-left: 0px;
+    }
+     .work-place-circle{
+        display: none;
+    }
+    .hansi-sahe{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
 }
 @media screen and (max-width: 375px){
    /*=====================================
@@ -853,7 +1025,8 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 2
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 20%;
     }
     /*=====================================
@@ -978,6 +1151,66 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     .hideme p{
         font-size: 15px;
     }
+     /*=====================================
+               courses pages
+    =====================================*/
+    .course-level{
+        margin-left: 0%;
+    }
+    .course-icon2{
+        margin-left: -3%;
+    }
+    .course-item-pic{
+        width: 100%;
+    }
+    .course-item-circle{
+        margin-left: 3%;
+        width: 50px;
+        height: 50px;
+    }
+    .course-item-head{
+        font-size: 16px;
+        margin-left: 8%;
+    }
+    .course-skill h4,
+    .course-skill-2 h4{
+        font-size: 13px;
+    }
+    .course-skill img,
+    .course-skill-2 img{
+        width: 40px;
+    }
+    .course-skill img{
+        margin-left: 25%;
+    }
+    .course-skill-2 img{
+        margin-left: 13%;
+    }
+    .graphics-course-circle{
+        margin-left: 23%;
+    }
+    .accordion-item h5{
+        font-size: 15px;
+    }
+    .accordion-item h5::before{
+        left: 20px;
+    }
+    .course-style-box{
+        margin-left: 0px;
+    }
+    .graphics-course-style-circle{
+        margin-left: 8%;
+    }
+    .course-style-box{
+        margin-left: 0px;
+    }
+     .work-place-circle{
+        display: none;
+    }
+    .hansi-sahe{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
 }
 @media screen and (max-width: 360px) and (min-width: 341px){
      /*=====================================
@@ -1003,7 +1236,8 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 20%;
     }
     /*=====================================
@@ -1027,8 +1261,23 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
      .circle-whyus-story{
         margin-left: 19%;
     }
+    /*=====================================
+                tutor page
+    =====================================*/
     .tutor-contact{
         display: none;
+    }
+    .join-group{
+        margin-top: 0px;
+    }
+    .graphics-course-circle{
+        margin-left: 21%;
+    }
+    .graphics-course-style-circle{
+        margin-left: 6%;
+    }
+    .course-style-box{
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 340px) and (min-width: 320px){
@@ -1055,7 +1304,8 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     /*=====================================
           index page tutor section
     =====================================*/
-    .circle-tutor-index{
+    .circle-tutor-index,
+    .circle-tutor-course{
         margin-left: 18%;
     }
     /*=====================================
@@ -1081,5 +1331,32 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     }
     .tutor-contact{
         display: none;
+    }
+      /*=====================================
+                tutor page
+    =====================================*/
+    .tutor-contact{
+        display: none;
+    }
+    .join-group{
+        margin-top: 0px;
+    }
+    /*=====================================
+                courses pages
+    =====================================*/
+     .course-skill img{
+        margin-left: 19%;
+    }
+    .course-skill-2 img{
+        margin-left: 8%;
+    }
+    .graphics-course-circle{
+        margin-left: 19%;
+    }
+    .graphics-course-style-circle{
+        margin-left: 3%;
+    }
+    .course-style-box{
+        margin-left: 0px;
     }
 } 
