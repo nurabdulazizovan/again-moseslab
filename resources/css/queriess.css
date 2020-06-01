@@ -189,6 +189,10 @@
     .circle-blog-index{
         margin-left: 41.5%;
     }
+     .blog-index{
+        height: 300px;
+         margin-bottom: 30px;
+    }
      /*=====================================
         index page contact us section
     =====================================*/
@@ -399,6 +403,7 @@
     .circle-blog-index{
         margin-left: 38%;
     }
+    
     /*=====================================
         index page contact us section
     =====================================*/
