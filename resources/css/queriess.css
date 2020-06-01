@@ -1282,6 +1282,9 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     .back-second img{
         margin-left: 28%;
     }
+    .footer-contact{
+        margin-left: 22%;
+    }
      /*=====================================
                 about page
     =====================================*/
@@ -1605,5 +1608,11 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     =====================================*/
     .circle-faq{
         margin-left: 0%;
+    }
+       /*=====================================
+             footer
+    =====================================*/
+     .footer-contact{
+        margin-left: 16%;
     }
 } 
