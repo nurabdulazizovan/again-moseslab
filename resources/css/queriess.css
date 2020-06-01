@@ -99,6 +99,30 @@
     .work-place-circle{
         margin-left: 20%;
     }
+    /*=====================================
+              single blog page
+    =====================================*/
+    .popular-blog img{
+        width: 59px;
+    }
+     /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 42.5%;
+    }
+    /*=====================================
+              faq page
+    =====================================*/
+    .question-box-1,
+    .question-box-2,
+    .question-box-3,
+    .question-box-4{
+        width: 429px;
+    }
+    .circle-faq{
+        margin-left: 28%
+    }
 }
 @media screen and (max-width: 991px) and (min-width: 768px){
      /*=====================================
@@ -291,6 +315,43 @@
     .check-line-4{
         font-size: 12px;
     }
+     /*=====================================
+              exam page
+    =====================================*/
+    .exam img{
+        margin-left: 6%;
+    }
+    .exam h4{
+        font-size: 24px;
+    }
+       /*=====================================
+              single blog page
+    =====================================*/
+    .popular-blog img{
+        width: 59px;
+    }
+      /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 39.5%;
+    }
+    .contact-item p,
+    .contact-item h3 {
+        margin-left: 0%;
+    }
+      /*=====================================
+              faq page
+    =====================================*/
+    .question-box-1,
+    .question-box-2,
+    .question-box-3,
+    .question-box-4{
+        width: 309px;
+    }
+    .circle-faq{
+        margin-left: 20.5%
+    }
 } 
 @media screen and (max-width: 767px) and (min-width: 576px){
     /*=====================================
@@ -462,6 +523,31 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 51%, rgba(242,242,242,1) 52%
     .hansi-sahe{
         font-size: 33px;
     }
+      /*=====================================
+              exam page
+    =====================================*/
+    .btn-exam{
+        width: 100%;
+    }
+      /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 36%;
+    }
+    /*=====================================
+             faq page
+    =====================================*/
+    .question-box-1,
+    .question-box-2,
+    .question-box-3,
+    .question-box-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .circle-faq{
+        margin-left: 9.5%;
+    }
 }
 @media screen and (max-width: 575px) and (min-width: 500px){
     /*=====================================
@@ -626,6 +712,31 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 29%, rgba(242,242,242,1) 28%
     }
     .hansi-sahe{
         font-size: 29px;
+    }
+    /*=====================================
+              exam page
+    =====================================*/
+    .btn-exam{
+        width: 100%;
+    }
+    /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 34%;
+    }
+    /*=====================================
+             faq page
+    =====================================*/
+    .question-box-1,
+    .question-box-2,
+    .question-box-3,
+    .question-box-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .circle-faq{
+        margin-left: 9%;
     }
 }
 @media screen and (max-width: 499px) and (min-width: 426px){
@@ -804,6 +915,34 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 2
     .hansi-sahe{
         font-size: 25px;
         margin-bottom: 30px;
+    }
+     /*=====================================
+              exam page
+    =====================================*/
+    .btn-exam{
+        width: 100%;
+    }
+    .exam img{
+        margin-left: 8%;
+    }
+    /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 34%;
+    }
+       /*=====================================
+             faq page
+    =====================================*/
+    .question-box-1,
+    .question-box-2,
+    .question-box-3,
+    .question-box-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .circle-faq{
+        margin-left: 3%;
     }
 }
 @media screen and (max-width: 425px) and (min-width: 376px){
@@ -999,6 +1138,43 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 27.9%, rgba(242,242,242,1) 2
     .hansi-sahe{
         font-size: 25px;
         margin-bottom: 30px;
+    }
+     /*=====================================
+              exam page
+    =====================================*/
+    .btn-exam{
+        width: 100%;
+    }
+    .exam img{
+        margin-left: 8%;
+    }
+    .exam h4{
+        font-size: 24px;
+    }
+    /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 30%;
+    }
+       /*=====================================
+             faq page
+    =====================================*/
+    .question-box-1,
+    .question-box-2,
+    .question-box-3,
+    .question-box-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .circle-faq{
+        margin-left: 6%;
+        width: 55px;
+        height: 55px;
+        margin-top: -54px;
+    }
+    .faq-head{
+        font-size: 28px;
     }
 }
 @media screen and (max-width: 375px){
@@ -1211,6 +1387,53 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
         font-size: 25px;
         margin-bottom: 30px;
     }
+      /*=====================================
+              exam page
+    =====================================*/
+    .btn-exam{
+        width: 100%;
+    }
+    .exam img{
+        margin-left: 5%;
+    }
+    .exam h4{
+        font-size: 21px;
+    }
+    /*=====================================
+              single blog page
+    =====================================*/
+    .popular-blog img{
+        width: 59px;
+    }
+    /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 29%;
+    }
+    .contact-item p,
+    .contact-item h3{
+        margin-left: 0%;
+    }
+         /*=====================================
+             faq page
+    =====================================*/
+    .question-box-1,
+    .question-box-2,
+    .question-box-3,
+    .question-box-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .circle-faq{
+        margin-left: 4%;
+        width: 55px;
+        height: 55px;
+        margin-top: -54px;
+    }
+    .faq-head{
+        font-size: 26px;
+    }
 }
 @media screen and (max-width: 360px) and (min-width: 341px){
      /*=====================================
@@ -1278,6 +1501,18 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     }
     .course-style-box{
         margin-left: 0px;
+    }
+      /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 27.5%;
+    }
+     /*=====================================
+             faq page
+    =====================================*/
+    .circle-faq{
+        margin-left: 1%;
     }
 }
 @media screen and (max-width: 340px) and (min-width: 320px){
@@ -1358,5 +1593,17 @@ background: linear-gradient(0deg, rgba(255,199,9,1) 32.9%, rgba(242,242,242,1) 2
     }
     .course-style-box{
         margin-left: 0px;
+    }
+      /*=====================================
+              contact page
+    =====================================*/
+    .circle-contact{
+        margin-left: 25.5%;
+    }
+      /*=====================================
+             faq page
+    =====================================*/
+    .circle-faq{
+        margin-left: 0%;
     }
 } 

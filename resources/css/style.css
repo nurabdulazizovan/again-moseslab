@@ -1930,7 +1930,7 @@ hr{
     content: " ";
     height: 3px;
     background-color: #EE4978;
-    width: 40%;
+    width: 120px;
     margin-top: 10px;
 }
 .phone::after{
@@ -1938,7 +1938,7 @@ hr{
     content: " ";
     height: 3px;
     background-color: #FFC709;
-    width: 45%;
+    width: 120px;
     margin-top: 10px;
 }
 .mail::after{
@@ -1946,7 +1946,7 @@ hr{
     content: " ";
     height: 3px;
     background-color: #7053A2;
-    width: 42%;
+    width: 120px;
     margin-top: 10px;
 }
 .contact-item{
@@ -2154,11 +2154,6 @@ hr{
     position: relative;
     top: 0px;
     left: 5px;
-}
-.popular-blog p{
-   position: relative;
-    top: -20px;
-    left: 30%; 
 }
 .popular-box{
     border: 2px solid #f2f2f2;
